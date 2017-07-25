@@ -123,8 +123,6 @@ def otherAbout():
 	aboutWindow.maxsize(width=250, height=100)
 	Label(aboutWindow, text="Developers:", height=1,width=50).pack()
 	Label(aboutWindow, text="Nieric 'HelloWorld' Javinal", height=1, width=50).pack()
-	Label(aboutWindow, text="Justine Lyle 'Bieber' Ybanes", height=1, width=50).pack()
-	Label(aboutWindow, text="Johnbert Soria", height=1, width=50).pack()
 	Button(aboutWindow, text='Okie', command=aboutWindow.destroy).pack()
 	
 
